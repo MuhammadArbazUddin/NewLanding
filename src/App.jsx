@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Work from "./components/Work";
+import WorkHead from "./components/WorkHead";
 
 export default function App() {
   return (
@@ -12,8 +13,9 @@ export default function App() {
       <Navbar />
       <Hero />
       <CardVerticleSlider />
-      <Work />
       <About />
+      <WorkHead />
+      <Work />
       <Features />
       <Footer />
     </>
