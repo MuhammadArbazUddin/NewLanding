@@ -20,7 +20,7 @@
 }
 
 body {
-  background-color: var(--color-background);
+  background: linear-gradient(to right, #1d145f, #30278e);
   font-family: "Roboto", sans-serif;
   color: white;
   overflow-x: hidden;

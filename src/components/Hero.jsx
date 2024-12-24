@@ -5,12 +5,12 @@ function Hero() {
     <div className="h-screen flex items-center justify-between px-32 relative">
       <div>
         <img
-          className="w-32 absolute bottom-10 right-10 rotate-6 animate-pulse"
-          src="https://cdn3d.iconscout.com/3d/premium/thumb/link-3d-icon-download-in-png-blend-fbx-gltf-file-formats--connection-network-chain-url-cloud-general-ui-pack-user-interface-icons-7718772.png"
+          className="w-32 absolute bottom-10 right-10 rotate-12 animate-pulse"
+          src="https://static.vecteezy.com/system/resources/thumbnails/041/503/276/small/cloud-3d-icon-with-cartoon-style-for-website-design-presentation-3d-rendering-icon-png.png"
           alt=""
         />
         <img
-          className="w-20 absolute top-20 left-10 rotate-6 animate-pulse"
+          className="w-20 absolute top-20 left-10 animate-pulse"
           src="https://static.vecteezy.com/system/resources/thumbnails/041/503/276/small/cloud-3d-icon-with-cartoon-style-for-website-design-presentation-3d-rendering-icon-png.png"
           alt=""
         />
