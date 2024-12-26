@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -16,7 +17,14 @@ const Footer = () => {
             © {new Date().getFullYear()} Arbaz. All rights reserved.
           </div>
           <div className="text-sm md:text-base">
-            Contact us for more information.
+            <ul className="flex gap-4 items-center underline">
+              <li>
+                <Link to="/privacy-policy">Privacy Policy</Link>
+              </li>
+              <li>
+                <Link to="/contact">Contact Us</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

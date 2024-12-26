@@ -78,7 +78,7 @@ const Contact = () => {
           <div className="text-3xl flex justify-center items-center my-4 rounded-full bg-black p-2 w-[70px] h-[70px] mx-auto">
             <FaPaperPlane className="text-white" />
           </div>
-          <h3 className="text-2xl font-mono font-bold mb-6 text-center">
+          <h3 className="text-2xl text-white font-bold mb-6 text-center">
             Send us a message
           </h3>
           <form className="space-y-4">
@@ -108,7 +108,7 @@ const Contact = () => {
               placeholder="Briefly describe your project requirements or objective of the discussion"
               className="w-full p-2 border rounded-md h-32 focus:outline-none focus:ring-2 focus:ring-white"
             ></textarea>
-            <button type="submit" className="button-54">
+            <button type="submit" className="button">
               Schedule Now
             </button>
           </form>

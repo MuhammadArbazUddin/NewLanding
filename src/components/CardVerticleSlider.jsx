@@ -72,7 +72,7 @@ const CardVerticleSlider = () => {
   ];
 
   return (
-    <div className="py-20">
+    <div className="py-32">
       <div className="mx-auto ">
         <div
           id="card-slider"

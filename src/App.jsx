@@ -1,27 +1,23 @@
-import About from "./components/About";
-import CardVerticleSlider from "./components/CardVerticleSlider";
-import ContactPage from "./components/ContactPage";
-import Features from "./components/Features";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Navbar from "./components/Navbar";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import Contact from "./components/ContactPage";
 import PrivacyPolicy from "./components/PrivacyPolicy";
-import Work from "./components/Work";
-import WorkHead from "./components/WorkHead";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
-export default function App() {
+const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Hero />
-      <CardVerticleSlider />
-      <About />
-      <WorkHead />
-      <Work />
-      <Features />
-      <ContactPage />
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      </Routes>
       <Footer />
-      <PrivacyPolicy />
-    </>
+    </Router>
   );
-}
+};
+
+export default App;

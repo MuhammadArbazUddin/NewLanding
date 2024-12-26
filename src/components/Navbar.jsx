@@ -20,13 +20,15 @@ const Navbar = () => {
           menu ? "fixed" : "absolute"
         } justify-between items-center pt-4 px-3 md:px-16 w-full z-[999]`}
       >
-        <div>
-          <img
-            className="w-16"
-            src="https://sociallywiredinc.com/wp-content/uploads/thegem-logos/logo_5ed0fad380d2d79934f28a88e69d3c71_1x.png"
-            alt="Logo"
-          />
-        </div>
+        <a href="/">
+          <div>
+            <img
+              className="w-16"
+              src="https://sociallywiredinc.com/wp-content/uploads/thegem-logos/logo_5ed0fad380d2d79934f28a88e69d3c71_1x.png"
+              alt="Logo"
+            />
+          </div>
+        </a>
 
         <div className="flex items-center lg:gap-14 gap-5 hover:bg-[#3F3F42] rounded-full transition-all ease-in-out duration-300">
           <div onClick={toggleMenu} className="text-center p-3">
