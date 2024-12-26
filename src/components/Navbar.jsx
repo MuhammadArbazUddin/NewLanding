@@ -4,12 +4,12 @@ import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
-  const [isAnimating, setIsAnimating] = useState(false); // New state to control animation
+  const [isAnimating, setIsAnimating] = useState(false);
 
   const handleLinkClick = () => setMenu(false);
 
   const toggleMenu = () => {
-    setIsAnimating(true); // Start animation when toggling menu
+    setIsAnimating(true);
     setMenu((prev) => !prev);
   };
 
@@ -23,7 +23,7 @@ const Navbar = () => {
         <a href="/">
           <div>
             <img
-              className="w-16"
+              className="w-18"
               src="https://sociallywiredinc.com/wp-content/uploads/thegem-logos/logo_5ed0fad380d2d79934f28a88e69d3c71_1x.png"
               alt="Logo"
             />
@@ -36,13 +36,13 @@ const Navbar = () => {
               <RxCross1
                 className="transition-all ease-in-out duration-700"
                 color="white"
-                size={25}
+                size={35}
               />
             ) : (
               <HiBars3
                 className="transition-all ease-in-out duration-700"
                 color="white"
-                size={25}
+                size={35}
               />
             )}
           </div>

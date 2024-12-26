@@ -2,12 +2,10 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className=" sm:p-10 sm:px-40 m-6 ">
-      <h1 className="text-3xl  font-bold pb-6 sm:text-center">
-        Privacy Policy
-      </h1>
+    <div className=" sm:p-10 sm:px-40 m-6 sm:py-32">
+      <h1 className="text-5xl  font-bold pb-6 ">Privacy Policy</h1>
 
-      <p className="pb-6  font-medium text-lg">
+      <p className="pb-6 font-medium text-lg border-b-2 ">
         Welcome to our Privacy Policy! This document elucidates how your
         personal information is collected, utilized, and shared when you visit{" "}
         <a
@@ -22,7 +20,7 @@ const PrivacyPolicy = () => {
         privacy.
       </p>
 
-      <h2 className="text-2xl  font-bold pb-4">
+      <h2 className="text-2xl  font-bold pb-4 mt-4">
         Personal Information We Collect
       </h2>
 
@@ -43,12 +41,12 @@ const PrivacyPolicy = () => {
         referred to as “Order Information.”
       </p>
 
-      <p className="pb-6  font-medium text-lg">
+      <p className="pb-6  font-medium text-lg border-b-2">
         Throughout this Privacy Policy, the term “Personal Information”
         encompasses both Device Information and Order Information.
       </p>
 
-      <h2 className="text-2xl  font-bold pb-4">
+      <h2 className="text-2xl  font-bold pb-4 mt-4">
         How Do We Use Your Personal Information?
       </h2>
 
@@ -68,7 +66,7 @@ const PrivacyPolicy = () => {
         </li>
       </ul>
 
-      <p className="pb-6  font-medium text-lg">
+      <p className="pb-6  font-medium text-lg border-b-2">
         Regarding Device Information, we use it to help identify and prevent
         potential risks or fraud (especially by monitoring your IP address), and
         more broadly, to enhance our Site. This includes generating analytics to
@@ -76,21 +74,21 @@ const PrivacyPolicy = () => {
         effectiveness of our marketing and advertising efforts.
       </p>
 
-      <h2 className="text-2xl  font-bold pb-4">Data Retention</h2>
+      <h2 className="text-2xl  font-bold pb-4 mt-4">Data Retention</h2>
 
-      <p className="pb-6  font-medium text-lg">
+      <p className="pb-6  font-medium text-lg border-b-2">
         When you place an order through the Site, we will retain your Order
         Information for our records unless you request its deletion.
       </p>
 
-      <h2 className="text-2xl  font-bold pb-4">Changes</h2>
+      <h2 className="text-2xl  font-bold pb-4 mt-4">Changes</h2>
 
-      <p className="pb-6  font-medium text-lg">
+      <p className="pb-6  font-medium text-lg border-b-2">
         We may update this privacy policy periodically to reflect changes to our
         practices or for other operational, legal, or regulatory reasons.
       </p>
 
-      <h2 className="text-2xl  font-bold pb-4">Contact Us</h2>
+      <h2 className="text-2xl  font-bold pb-4 mt-4">Contact Us</h2>
 
       <p className="pb-6  font-medium text-lg">
         For more information about our privacy practices, if you have questions,
